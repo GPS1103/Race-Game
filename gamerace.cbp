@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gamerace" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gamerace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="D:/Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio-s-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics-s-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-main-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network-s-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system-s-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window-d.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window-s-d.a" />
+					<Add directory="D:/Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gamerace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio-s.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics-s.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-main.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network-s.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system-s.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window.a" />
+					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window-s.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add option="-static-libgcc" />
+			<Add option="-static-libstdc++" />
+			<Add directory="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib" />
+		</Linker>
+		<Unit filename="car.cpp" />
+		<Unit filename="car.h" />
+		<Unit filename="display.cpp" />
+		<Unit filename="display.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
