@@ -14,21 +14,21 @@
 				<Compiler>
 					<Add option="-std=c++11" />
 					<Add option="-g" />
-					<Add directory="D:/Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/include" />
+					<Add directory="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/include" />
 				</Compiler>
 				<Linker>
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio-s-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics-s-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-main-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network-s-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system-s-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window-d.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window-s-d.a" />
-					<Add directory="D:/Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-audio-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-audio-s-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-graphics-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-graphics-s-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-main-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-network-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-network-s-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-system-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-system-s-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-window-d.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-window-s-d.a" />
+					<Add directory="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -39,20 +39,29 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-std=c++11" />
+					<Add directory="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-audio-s.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-graphics-s.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-main.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-network-s.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-system-s.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window.a" />
-					<Add library="../../Pobrane/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib/libsfml-window-s.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libFLAC.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libfreetype.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libogg.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libopenal32.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-audio.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-audio-s.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-graphics.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-graphics-s.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-main.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-network.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-network-s.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-system.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-system-s.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-window.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libsfml-window-s.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libvorbis.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libvorbisenc.a" />
+					<Add library="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib/libvorbisfile.a" />
+					<Add directory="../../../Downloads/SFML-2.5.1-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.1/lib" />
 				</Linker>
 			</Target>
 		</Build>
